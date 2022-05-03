@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# siii.github.io
-This is Sijie's Portfolio Website Demo which was the author's first Github project as a learning process.
-=======
 # Gao-Sijie.github.io
-Sijie's Portfolio Website Demo
->>>>>>> main
+Sijie's web project which was also the first learning project of HTML, CSS and Javascript. 
+Use Github Page to host website, visit: https://gao-sijie.github.io/
