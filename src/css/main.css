@@ -1,73 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 :root {
-  --main-color:#000000;
+  --main-black:#000000;
+  --main-white:#ffffff;
 }
 
 body {
-  background: #f2f2f2;
   margin: 0;
+  background: var(--main-black);
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-  background: white;
-  padding: 1em;
+body a, body .imgExplanation {
+  color: var(--main-white);
 }
 
-.navbar .logo {
-  text-decoration: none;
-  color: black;
-  font-size: 1.2em;
-}
-
-.navbar .logo span {
-  color: var(--main-color);
-  font-weight: 900;
-}
-
-.navbar nav {
-  display: none;
-}
-
-.navbar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  place-content: space-between;
-}
-
-.navbar .mobile_menu {
-  cursor: pointer;
-  width: 30px;
-}
-
-a {
-  color: #444444;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-section {
-  padding: 1em auto;
-}
-
-.hero {
+body .logo {
+  margin-top: 10em;
   text-align: center;
 }
 
-.left_col .subhead {
-  color: grey;
-  letter-spacing: 0.3em;
-  margin: 0.5em 0em;
+body .logo .logoImg {
+  width: 7.5%;
 }
 
-.hero_image {
-  width: 100%;
-  margin: 1em 0.3em;
-  margin-top: 0;
+body .index_image {
+  text-align: center;
+}
+
+body .index_image img {
+  width: 30%;
+}
+
+body .index_image .imgExplanation {
+  margin-top: -0.2em;
+}
+
+body .menu {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.imgExplanation {
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

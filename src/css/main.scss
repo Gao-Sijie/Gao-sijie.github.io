@@ -1,79 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --main-color:#000000;
+    --main-black:#000000;
+    --main-white:#ffffff;
 }
 
-body {
-    background: #f2f2f2;
+body{
     margin: 0;
+    background: var(--main-black);
     font-family: 'Roboto', sans-serif;
-}
-
-
-.navbar {
-    background: white;
-    padding: 1em;
-
-    // LOGO
+    //内容都为白色
+    a, .imgExplanation {
+        color: var(--main-white);
+    }
     .logo{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-
-        span{
-            color:var(--main-color);
-            font-weight: 900;
+        margin-top: 10em;
+        text-align: center;
+        .logoImg {
+            width: 7.5%;
         }
     }
-
-    // 移动端隐藏菜单栏
-    nav
-    {
-        display: none;
+    .index_image{
+        text-align: center;
+        img{
+            width: 30%;
+        }
+        .imgExplanation{
+            margin-top: -0.2em;
+        }
     }
-
-    // 自动对齐
-    .container{
-        display: flex;
-        place-content: space-between;
-    }
-
-    // 移动端菜单栏
-    .mobile_menu{
-        cursor: pointer;
-        width: 30px;
+    .menu{
+        text-align: center;
+        margin-top: 2em;
+        font-size: 1.5em;
+        font-weight: 700;
     }
 }
 
-//所有链接都为黑色
-a {color: #444444;}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+//所有图片注释都采用小字号
+.imgExplanation {
+    font-size: 0.8em;
+    font-weight: 100;
 }
 
-section{
-    padding: 1em auto;
-}
-
-.hero{
-    text-align: center;
-}
-
-.left_col{
-
-    .subhead{
-        color: grey;
-        letter-spacing: 0.3em;
-        margin: 0.5em 0em;
-    }
-}
-
-.hero_image{
-    width: 100%;
-    margin: 1em 0.3em;
-    margin-top: 0;
+//所有链接都为无修饰
+a {
+    text-decoration: none;
 }

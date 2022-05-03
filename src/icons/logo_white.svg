@@ -3,16 +3,29 @@
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 100" style="enable-background:new 0 0 200 100;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{font-family:'Roboto-Bold';}
-	.st2{font-size:95.1947px;}
-	.st3{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
+	.st0{enable-background:new    ;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
 </style>
-<text transform="matrix(1 0 0 1 13.2235 74.9557)" class="st0 st1 st2">SI</text>
-<text transform="matrix(1 0 0 1 118.5619 74.9557)" class="st0 st1 st2">II</text>
-<circle class="st0" cx="112.48" cy="68.26" r="6.69"/>
-<circle class="st0" cx="180.08" cy="68.26" r="6.69"/>
-<circle class="st0" cx="180.08" cy="41.49" r="6.69"/>
-<circle class="st0" cx="180.08" cy="14.72" r="6.69"/>
-<line class="st3" x1="16.26" y1="86.09" x2="186.77" y2="86.09"/>
+<g class="st0">
+	<path class="st1" d="M39,57c0-2.6-0.9-4.7-2.8-6.1c-1.9-1.4-5.2-2.9-10-4.5c-4.8-1.6-8.7-3.1-11.5-4.6C7,37.7,3.1,32.1,3.1,25.1
+		c0-3.7,1-6.9,3.1-9.8c2.1-2.9,5-5.1,8.9-6.7s8.2-2.4,13-2.4c4.8,0,9.1,0.9,12.9,2.6c3.8,1.8,6.7,4.2,8.8,7.4
+		C51.9,19.4,53,23,53,27.1H39c0-3.1-1-5.5-2.9-7.2s-4.7-2.6-8.2-2.6c-3.4,0-6.1,0.7-7.9,2.2c-1.9,1.4-2.8,3.3-2.8,5.7
+		c0,2.2,1.1,4,3.3,5.5c2.2,1.5,5.5,2.9,9.8,4.2c7.9,2.4,13.7,5.3,17.3,8.9S53,51.7,53,56.9c0,5.9-2.2,10.5-6.6,13.8
+		c-4.4,3.3-10.4,5-17.9,5c-5.2,0-9.9-1-14.2-2.9C9.9,71,6.7,68.3,4.4,65C2.2,61.7,1,57.9,1,53.5h14c0,7.5,4.5,11.2,13.4,11.2
+		c3.3,0,5.9-0.7,7.8-2C38,61.3,39,59.4,39,57z"/>
+	<path class="st1" d="M77.2,74.8H63.3V7.1h13.9V74.8z"/>
+</g>
+<g class="st0">
+	<path class="st1" d="M124,74.8h-13.9V7.1H124V74.8z"/>
+	<path class="st1" d="M151.8,74.8h-13.9V7.1h13.9V74.8z"/>
+	<path class="st1" d="M179.5,74.8h-13.9V7.1h13.9V74.8z"/>
+</g>
+<circle class="st1" cx="97.1" cy="68.1" r="6.7"/>
+<g>
+	<circle class="st1" cx="192.5" cy="68.1" r="6.7"/>
+	<circle class="st1" cx="192.5" cy="41.3" r="6.7"/>
+	<circle class="st1" cx="192.5" cy="14.5" r="6.7"/>
+</g>
+<line class="st2" x1="0.7" y1="82.9" x2="199.2" y2="82.9"/>
 </svg>
