@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --main-black:#000000;
+    --main-white:#ffffff;
+}
+
+body{
+    margin: 0;
+    background: var(--main-black);
+    font-family: 'Roboto', sans-serif;
+    //内容都为白色
+    a, .imgExplanation {
+        color: var(--main-white);
+    }
+    .logo{
+        margin-top: 10em;
+        text-align: center;
+        .logoImg {
+            width: 7.5%;
+        }
+    }
+    .index_image{
+        text-align: center;
+        img{
+            width: 30%;
+        }
+        .imgExplanation{
+            margin-top: -0.2em;
+        }
+    }
+    .menu{
+        text-align: center;
+        margin-top: 2em;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+}
+
+//所有图片注释都采用小字号
+.imgExplanation {
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+//所有链接都为无修饰
+a {
+    text-decoration: none;
+}
